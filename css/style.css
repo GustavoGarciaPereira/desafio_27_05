@@ -1,0 +1,28 @@
+.quadrado_nomes{
+    float: left;
+    margin: 10px 10px;
+}
+
+.tudo { 
+
+    padding-top: 5rem;
+}
+.quadrado_estatiscas { float: left; width: 30%; }
+.quadrado_estatiscas { margin-left: 35%; }
+
+img{
+  width: 60px;
+  height: 60px;
+}
+.conteudo-estatistica{
+  padding-top: 60px;
+}
+li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dados-estatistica{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
