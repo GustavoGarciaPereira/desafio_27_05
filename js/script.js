@@ -31,7 +31,7 @@ function busca1(lista){
         console.log("<>>>>>>>>>>",nome)
         if (nome.value!==''){
             lista_dos_nomes = lista.filter((item)=>{
-                return item.name.first.toUpperCase().includes(nome.value.toUpperCase())            
+                return item.name.first.toUpperCase().includes(nome.value.toUpperCase()) || item.name.last.toUpperCase().includes(nome.value.toUpperCase())            
             });
             montar_lista_nomes(lista_dos_nomes)
             montar_estatisticas(lista_dos_nomes)
@@ -48,7 +48,7 @@ function busca1(lista){
         lista.map((lista)=>{
             document.querySelector("#nomes").innerHTML += `
             <li>
-                <p>${lista.name.first} ${lista.name.last}  <img src="${lista.picture.medium}"></p>
+                <p>${lista.name.first} ${lista.name.last}  <img src="${lista.picture.medium}"> ${lista.dob.age} anos</p>
            </li>
             `
         })
