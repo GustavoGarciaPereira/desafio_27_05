@@ -13,6 +13,7 @@
 img{
   width: 60px;
   height: 60px;
+  border-radius: 70px;
 }
 .conteudo-estatistica{
   padding-top: 60px;
@@ -25,4 +26,11 @@ li{
 .dados-estatistica{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+#input_busca{
+  width: 680px;
+}
+.titulo_busca{
+  padding-left: 430px;
 }
